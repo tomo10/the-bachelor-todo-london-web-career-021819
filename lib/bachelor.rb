@@ -78,7 +78,7 @@ def get_average_age_for_season(data, season)
       
       girl_data.each do |info|
         
-      ages += info["age"].to_i
+      ages += info["age"].to_f
        
       end
       return (ages / num_con)
