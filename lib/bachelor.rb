@@ -79,7 +79,7 @@ def get_average_age_for_season(data, season)
       girl_data.each do |info|
         
       ages += info["age"].to_f
-        
+      binding.pry 
       end
     end
   end
