@@ -81,7 +81,7 @@ def get_average_age_for_season(data, season)
       ages += info["age"].to_f
        
       end
-      return (ages / num_con).ceil 
+      return (ages / num_con).round 
     end
   end
 end
